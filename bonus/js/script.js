@@ -6,7 +6,7 @@ const stampaLista= document.getElementById("lista_spesa");
 // stampaLista.append(elementoSpesa);
 let i=0;
 while(i< listaSpesa.length){
-    listaSpesa[i]=prompt("Inserisci prodotti da mettere nella lista, max 4");
+    listaSpesa[i]=prompt("Inserisci i prodotti da mettere nella lista");
     console.log(listaSpesa[i])
     const elementoSpesa= document.createElement("li");
     elementoSpesa.append(listaSpesa[i]);
